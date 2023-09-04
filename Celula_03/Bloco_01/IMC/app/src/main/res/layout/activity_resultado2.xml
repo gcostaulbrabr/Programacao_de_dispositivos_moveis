@@ -90,7 +90,7 @@
                     android:textColor="?android:attr/textColorSecondary" />
 
                 <TextView
-                    android:id="@+id/textViewResultadoDensidadeCorporal"
+                    android:id="@+id/textViewAltura"
                     style="@style/styleValorResultado"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

@@ -35,6 +35,10 @@ class IMC(var nome: String?, var peso: Float, var altura: Float, var imc: Float)
         return msg
     }
 
+    fun getImcArredondado(): Double {
+        return Math.round(imc * 100.0) / 100.00;
+    }
+
     override fun writeToParcel(parcel: Parcel, flags: Int) {
         parcel.writeString(nome)
         parcel.writeFloat(peso)

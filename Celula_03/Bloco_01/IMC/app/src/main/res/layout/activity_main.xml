@@ -95,6 +95,7 @@
 
     <Button
         android:id="@+id/btnCalc"
+        style="@style/styleContainedButton"
         android:layout_width="0dp"
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
